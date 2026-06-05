@@ -1,0 +1,40 @@
+{
+  "name": "dithering-shader",
+  "version": "1.0.0",
+  "description": "Demo of a dithering shader implementation with React Three Fiber.",
+  "keywords": [
+    "interaction",
+    "pointer-events"
+  ],
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@react-three/drei": "9.117.1",
+    "@react-three/fiber": "8.17.10",
+    "@types/three": "0.170.0",
+    "leva": "0.9.32",
+    "postprocessing": "^6.37.3",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-scripts": "5.0.1",
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">1%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
